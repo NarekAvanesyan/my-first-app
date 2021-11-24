@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div_111{
+    background-image: url(../img/15.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+ul{
+    list-style: none;
+    background-color: black;
+    overflow: hidden;
+}
+ul li{
+    float: left;
+}
+ul li a{
+    text-decoration: none;
+    padding: 12px 50px;
+    display: block;
+    color: white;
+    font-size: 25px;
+}
+ul li a:hover{
+    color: white;
+    background-color: rgb(180, 180, 35);
+}
+.select{
+    min-width: 145px;
+    background-color: red;
+    position: absolute;
+    display: none;
+}
+li:hover .select{
+    display: block;
+}
+.select_2{
+    min-width: 145px;
+    background-color: red;
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 268px;
+}
+.select_1:hover .select_2{
+    display:block ;
+}
+.select_4{
+    min-width: 165px;
+    background-color: red;
+    position: absolute;
+    display: none;
+    top: 52px;
+    left: 268px;
+}
+.select_3:hover .select_4{
+    display:block ;
+}
+.select_6{
+    min-width: 145px;
+    background-color: red;
+    position: absolute;
+    display: none;
+    top: 104px;
+    left: 268px;
+}
+.select_5:hover .select_6{
+    display:block ;
+}
+.select_10{
+    min-width: 145px;
+    background-color: red;
+    position: absolute;
+    display: none;
+    top: 52px;
+    left: 698px;
+}
+.select_9:hover .select_10{
+    display:block ;
+}
+.li_1{
+    margin-left: 800px;
+    margin-top: 15px;
+}
+img{
+    width: 30%;
+    height: 20px;
+    margin-left: 0px;
+}
+p{
+    width: 40%;
+    font-size: 20px;
+    font-family: cursive;
+    line-height: 2;
+    color: white;
+}
+.if_1{
+    margin-left: 800px;
+    margin-top: -400px;
+}
+hr{
+    height: 10px;
+    background-color: black;
+}
+.if_2{
+    margin-left: 800px;
+    margin-top: -800px;
+}
+.if_3{
+    margin-left: 800px;
+    margin-top: -400px;
+}
